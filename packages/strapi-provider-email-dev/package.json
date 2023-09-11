@@ -1,0 +1,45 @@
+{
+  "name": "@x-team/strapi-provider-email-dev",
+  "version": "3.6.11",
+  "description": "Dev provider for strapi email",
+  "keywords": [
+    "email",
+    "strapi"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "fs-extra": "^10.0.0"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "josh@x-team.com",
+    "name": "X-Team",
+    "url": "https://x-team.com"
+  },
+  "maintainers": [
+    {
+      "name": "X-Team",
+      "email": "josh@x-team.com",
+      "url": "https://x-team.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/x-team/strapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/x-team/strapi/issues"
+  },
+  "engines": {
+    "node": ">=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  }
+}
