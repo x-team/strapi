@@ -33,10 +33,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
+    "url": "git://github.com/x-team/strapi.git"
   },
   "bugs": {
-    "url": "https://github.com/strapi/strapi/issues"
+    "url": "https://github.com/x-team/strapi/issues"
   },
   "engines": {
     "node": ">=14.x.x",

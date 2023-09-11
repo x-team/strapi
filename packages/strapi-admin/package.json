@@ -4,7 +4,7 @@
   "description": "Strapi Admin",
   "repository": {
     "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
+    "url": "git://github.com/x-team/strapi.git"
   },
   "scripts": {
     "test": "echo \"no tests yet\"",
