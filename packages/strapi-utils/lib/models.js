@@ -128,6 +128,7 @@ module.exports = {
 
       // We have to find if they are a model linked to this attributeName
       if (!_.has(models, attribute.model)) {
+        console.log('m', strapi.plugins);
         throw new Error(
           `The model \`${_.upperFirst(
             attribute.model

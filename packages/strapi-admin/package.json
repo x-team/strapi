@@ -1,5 +1,5 @@
 {
-  "name": "strapi-admin",
+  "name": "@x-team/strapi-admin",
   "version": "3.6.11",
   "description": "Strapi Admin",
   "repository": {
@@ -37,6 +37,8 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/react-fontawesome": "^0.1.14",
+    "@x-team/strapi-helper-plugin": "3.6.11",
+    "@x-team/strapi-utils": "3.6.11",
     "autoprefixer": "^9.8.6",
     "axios": "^0.21.1",
     "babel-loader": "^8.1.0",
@@ -101,8 +103,6 @@
     "sanitize.css": "^4.1.0",
     "semver": "7.3.5",
     "sift": "13.5.0",
-    "strapi-helper-plugin": "3.6.11",
-    "strapi-utils": "3.6.11",
     "style-loader": "^0.23.1",
     "styled-components": "^5.2.3",
     "terser-webpack-plugin": "^1.2.3",

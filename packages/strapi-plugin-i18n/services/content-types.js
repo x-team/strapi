@@ -7,7 +7,7 @@ const {
   getVisibleAttributes,
   isMediaAttribute,
   isTypedAttribute,
-} = require('strapi-utils').contentTypes;
+} = require('@x-team/strapi-utils').contentTypes;
 const { getService } = require('../utils');
 
 const hasLocalizedOption = modelOrAttribute => {

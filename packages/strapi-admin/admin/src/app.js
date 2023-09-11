@@ -28,7 +28,7 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 // Strapi provider with the internal APIs
-import { StrapiProvider } from 'strapi-helper-plugin';
+import { StrapiProvider } from '@x-team/strapi-helper-plugin';
 import { merge } from 'lodash';
 import Fonts from './components/Fonts';
 import { freezeApp, pluginLoaded, unfreezeApp, updatePlugin } from './containers/App/actions';
@@ -196,7 +196,7 @@ window.strapi = Object.assign(window.strapi || {}, {
   router: history,
   languages,
   currentLanguage:
-    window.localStorage.getItem('strapi-admin-language') ||
+    window.localStorage.getItem('@x-team/strapi-admin-language') ||
     window.navigator.language ||
     window.navigator.userLanguage ||
     'en',

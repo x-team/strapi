@@ -1,5 +1,5 @@
 {
-  "name": "strapi-utils",
+  "name": "@x-team/strapi-utils",
   "version": "3.6.11",
   "description": "Shared utilities for the Strapi packages",
   "homepage": "https://strapi.io",

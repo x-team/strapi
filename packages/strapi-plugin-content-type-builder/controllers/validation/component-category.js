@@ -1,7 +1,7 @@
 'use strict';
 
 const yup = require('yup');
-const { formatYupErrors } = require('strapi-utils');
+const { formatYupErrors } = require('@x-team/strapi-utils');
 
 const { isValidCategoryName } = require('./common');
 

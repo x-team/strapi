@@ -2,7 +2,7 @@
 
 const {
   policy: { createPolicyFactory },
-} = require('strapi-utils');
+} = require('@x-team/strapi-utils');
 const { validateHasPermissionsInput } = require('../../validation/policies/hasPermissions');
 
 module.exports = createPolicyFactory(

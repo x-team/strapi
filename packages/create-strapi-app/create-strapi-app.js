@@ -1,8 +1,9 @@
 'use strict';
 
 const commander = require('commander');
-const generateNewApp = require('strapi-generate-new');
+const generateNewApp = require('@x-team/strapi-generate-new');
 const promptUser = require('./utils/prompt-user');
+// eslint-disable-next-line import/extensions
 const packageJson = require('./package.json');
 
 const program = new commander.Command(packageJson.name);

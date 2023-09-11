@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { components } from 'react-select';
 import { upperFirst } from 'lodash';
-import { useQuery } from 'strapi-helper-plugin';
+import { useQuery } from '@x-team/strapi-helper-plugin';
 import useDataManager from '../../hooks/useDataManager';
 import Ul from '../SelectMenuUl';
 import Category from './Category';
@@ -61,6 +61,7 @@ const MenuList = ({
                         }}
                       >
                         <p
+                          // eslint-disable-next-line react/no-unknown-property
                           datadescr={upperFirst(component.schema.name)}
                           style={{
                             color: isSelected ? '#007eff' : '',

@@ -8,7 +8,8 @@ const WebpackDevServer = require('webpack-dev-server');
 const chalk = require('chalk');
 const chokidar = require('chokidar');
 // eslint-disable-next-line node/no-extraneous-require
-const hasEE = require('strapi/lib/utils/ee');
+const hasEE = require('@x-team/strapi/lib/utils/ee');
+// eslint-disable-next-line import/extensions
 const getWebpackConfig = require('./webpack.config.js');
 
 const getPkgPath = name => path.dirname(require.resolve(`${name}/package.json`));
@@ -154,7 +155,7 @@ async function copyPlugin(name, dest) {
 }
 
 async function copyAdmin(dest) {
-  const adminPath = getPkgPath('strapi-admin');
+  const adminPath = getPkgPath('@x-team/strapi-admin');
 
   // TODO copy ee folders for plugins
   await fs.copy(path.resolve(adminPath, 'ee', 'admin'), path.resolve(dest, 'ee', 'admin'));
@@ -228,7 +229,7 @@ async function createCacheDir(dir) {
     pluginsToOverride.map(plugin =>
       copyCustomAdmin(
         path.join(dir, 'extensions', plugin, 'admin'),
-        path.join(cacheDir, 'plugins', `strapi-plugin-${plugin}`)
+        path.join(cacheDir, 'plugins', `@x-team/strapi-plugin-${plugin}`)
       )
     )
   );
@@ -304,7 +305,9 @@ async function watchFiles(dir, ignoreFiles = []) {
     const isExtension = filePath.includes(extensionsPath);
     const pluginName = isExtension ? filePath.replace(extensionsPath, '').split(path.sep)[1] : '';
 
-    const packageName = isExtension ? `strapi-plugin-${pluginName}` : 'strapi-admin';
+    const packageName = isExtension
+      ? `@x-team/strapi-plugin-${pluginName}`
+      : '@x-team/strapi-admin';
 
     const targetPath = isExtension
       ? path.normalize(filePath.split(extensionsPath)[1].replace(pluginName, ''))

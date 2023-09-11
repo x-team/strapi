@@ -12,17 +12,17 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "@x-team/strapi": "3.6.11",
+    "@x-team/strapi-admin": "3.6.11",
+    "@x-team/strapi-connector-bookshelf": "3.6.11",
+    "@x-team/strapi-plugin-content-manager": "3.6.11",
+    "@x-team/strapi-plugin-content-type-builder": "3.6.11",
+    "@x-team/strapi-plugin-upload": "3.6.11",
+    "@x-team/strapi-plugin-users-permissions": "3.6.11",
+    "@x-team/strapi-utils": "3.6.11",
     "knex": "0.21.18",
     "lodash": "4.17.21",
-    "mysql": "2.18.1",
-    "strapi": "3.6.11",
-    "strapi-admin": "3.6.11",
-    "strapi-connector-bookshelf": "3.6.11",
-    "strapi-plugin-content-manager": "3.6.11",
-    "strapi-plugin-content-type-builder": "3.6.11",
-    "strapi-plugin-upload": "3.6.11",
-    "strapi-plugin-users-permissions": "3.6.11",
-    "strapi-utils": "3.6.11"
+    "mysql": "2.18.1"
   },
   "strapi": {
     "uuid": "getstarted"

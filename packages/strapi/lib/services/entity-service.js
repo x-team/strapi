@@ -7,7 +7,7 @@ const {
   sanitizeEntity,
   webhook: webhookUtils,
   contentTypes: contentTypesUtils,
-} = require('strapi-utils');
+} = require('@x-team/strapi-utils');
 const uploadFiles = require('./utils/upload-files');
 
 // TODO: those should be strapi events used by the webhooks not the other way arround

@@ -1,5 +1,5 @@
 {
-  "name": "strapi-generate",
+  "name": "@x-team/strapi-generate",
   "version": "3.6.11",
   "description": "Master of ceremonies for the Strapi generators.",
   "homepage": "https://strapi.io",
@@ -16,11 +16,11 @@
     "test": "echo \"no tests yet\""
   },
   "dependencies": {
+    "@x-team/strapi-utils": "3.6.11",
     "async": "^2.6.2",
     "fs-extra": "^9.1.0",
     "lodash": "4.17.21",
-    "reportback": "^2.0.2",
-    "strapi-utils": "3.6.11"
+    "reportback": "^2.0.2"
   },
   "author": {
     "name": "Strapi team",

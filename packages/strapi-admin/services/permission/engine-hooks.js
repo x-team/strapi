@@ -1,7 +1,7 @@
 'use strict';
 
 const { cloneDeep, has } = require('lodash/fp');
-const { hooks } = require('strapi-utils');
+const { hooks } = require('@x-team/strapi-utils');
 
 const permissionDomain = require('../../domain/permission');
 

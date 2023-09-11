@@ -11,7 +11,7 @@
 
 import React from 'react';
 
-import { NotFound } from 'strapi-helper-plugin';
+import { NotFound } from '@x-team/strapi-helper-plugin';
 
 function NotFoundPage(props) {
   return <NotFound {...props} />;

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import { themePropTypes } from 'strapi-helper-plugin';
+import { themePropTypes } from '@x-team/strapi-helper-plugin';
 
 const SortListItem = styled.li`
   padding: 0 14px;
@@ -10,7 +10,7 @@ const SortListItem = styled.li`
     background-color: ${({ theme }) => theme.main.colors.mediumGrey};
   }
   ${({ isActive, theme }) =>
-  isActive &&
+    isActive &&
     `
     background-color: ${theme.main.colors.mediumGrey};
   `}

@@ -1,18 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { get, isEmpty } from 'lodash';
-import { useGlobalContext } from 'strapi-helper-plugin';
+import { useGlobalContext } from '@x-team/strapi-helper-plugin';
 import RelationFormBox from '../RelationFormBox';
 import RelationFormNaturePicker from '../RelationFormNaturePicker';
 import Wrapper from './Wrapper';
 
-const RelationForm = ({
-  errors,
-  mainBoxHeader,
-  modifiedData,
-  naturePickerType,
-  onChange,
-}) => {
+const RelationForm = ({ errors, mainBoxHeader, modifiedData, naturePickerType, onChange }) => {
   const { formatMessage } = useGlobalContext();
   const getError = name => {
     const errorId = get(errors, [name, 'id'], null);

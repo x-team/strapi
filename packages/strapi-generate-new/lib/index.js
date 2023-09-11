@@ -31,6 +31,7 @@ module.exports = (projectDirectory, cliArguments) => {
     // disable quickstart run app after creation
     runQuickstartApp: cliArguments.run === false ? false : true,
     // use pacakge version as strapiVersion (all packages have the same version);
+    // eslint-disable-next-line import/extensions
     strapiVersion: require('../package.json').version,
     debug: cliArguments.debug !== undefined,
     quick: cliArguments.quickstart,
@@ -47,15 +48,15 @@ module.exports = (projectDirectory, cliArguments) => {
     useYarn: !useNpm && hasYarn(),
     installDependencies: true,
     strapiDependencies: [
-      'strapi',
-      'strapi-admin',
-      'strapi-utils',
-      'strapi-plugin-content-type-builder',
-      'strapi-plugin-content-manager',
-      'strapi-plugin-users-permissions',
-      'strapi-plugin-email',
-      'strapi-plugin-upload',
-      'strapi-plugin-i18n',
+      '@x-team/strapi',
+      '@x-team/strapi-admin',
+      '@x-team/strapi-utils',
+      '@x-team/strapi-plugin-content-type-builder',
+      '@x-team/strapi-plugin-content-manager',
+      '@x-team/strapi-plugin-users-permissions',
+      '@x-team/strapi-plugin-email',
+      '@x-team/strapi-plugin-upload',
+      '@x-team/strapi-plugin-i18n',
     ],
     additionalsDependencies: {},
   };

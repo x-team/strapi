@@ -1,5 +1,5 @@
 {
-  "name": "strapi-helper-plugin",
+  "name": "@x-team/strapi-helper-plugin",
   "version": "3.6.11",
   "description": "Helper for Strapi plugins development",
   "files": [

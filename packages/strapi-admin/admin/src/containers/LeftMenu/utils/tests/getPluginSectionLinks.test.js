@@ -1,7 +1,7 @@
-import { hasPermissions } from 'strapi-helper-plugin';
+import { hasPermissions } from '@x-team/strapi-helper-plugin';
 import getPluginSectionLinks from '../getPluginSectionLinks';
 
-jest.mock('strapi-helper-plugin');
+jest.mock('@x-team/strapi-helper-plugin');
 
 describe('getPluginSectionLinks', () => {
   beforeEach(() => {

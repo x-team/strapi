@@ -9,14 +9,11 @@ const VError = require('verror');
  */
 module.exports = function requireConnector(connector) {
   if (!connector) {
-    throw new VError(
-      { name: 'ConnectorError' },
-      'initialize connector without name'
-    );
+    throw new VError({ name: 'ConnectorError' }, 'initialize connector without name');
   }
 
   try {
-    require.resolve(`strapi-connector-${connector}`);
+    require.resolve(`@x-team/strapi-connector-${connector}`);
   } catch (error) {
     throw new VError(
       { name: 'ConnectorError', cause: error },
@@ -26,7 +23,7 @@ module.exports = function requireConnector(connector) {
   }
 
   try {
-    return require(`strapi-connector-${connector}`);
+    return require(`@x-team/strapi-connector-${connector}`);
   } catch (error) {
     throw new VError(
       { name: 'ConnectorError', cause: error },

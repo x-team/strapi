@@ -8,6 +8,7 @@ const { Command } = require('commander');
 
 const program = new Command();
 
+// eslint-disable-next-line import/extensions
 const packageJSON = require('../package.json');
 
 const checkCwdIsStrapiApp = name => {
@@ -22,7 +23,7 @@ const checkCwdIsStrapiApp = name => {
 
   try {
     const pkgJSON = require(process.cwd() + '/package.json');
-    if (!_.has(pkgJSON, 'dependencies.strapi')) {
+    if (!_.has(pkgJSON, 'dependencies.@x-team/strapi')) {
       logErrorAndExit(name);
     }
   } catch (err) {
@@ -33,7 +34,7 @@ const checkCwdIsStrapiApp = name => {
 const getLocalScript = name => (...args) => {
   checkCwdIsStrapiApp(name);
 
-  const cmdPath = resolveCwd.silent(`strapi/lib/commands/${name}`);
+  const cmdPath = resolveCwd.silent(`@x-team/strapi/lib/commands/${name}`);
   if (!cmdPath) {
     console.log(
       `Error loading the local ${yellow(

@@ -1,7 +1,7 @@
 'use strict';
 
 const { isUndefined } = require('lodash/fp');
-const { yup, formatYupErrors } = require('strapi-utils');
+const { yup, formatYupErrors } = require('@x-team/strapi-utils');
 const validators = require('./common-validators');
 
 const handleReject = error => Promise.reject(formatYupErrors(error));

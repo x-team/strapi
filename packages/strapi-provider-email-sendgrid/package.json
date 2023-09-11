@@ -1,5 +1,5 @@
 {
-  "name": "strapi-provider-email-sendgrid",
+  "name": "@x-team/strapi-provider-email-sendgrid",
   "version": "3.6.11",
   "description": "Sendgrid provider for strapi email",
   "homepage": "https://strapi.io",
@@ -14,7 +14,7 @@
   "main": "./lib",
   "dependencies": {
     "@sendgrid/mail": "6.4.0",
-    "strapi-utils": "3.6.11"
+    "@x-team/strapi-utils": "3.6.11"
   },
   "strapi": {
     "isProvider": true

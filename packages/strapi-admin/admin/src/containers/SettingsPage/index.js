@@ -15,7 +15,7 @@ import {
   useGlobalContext,
   LeftMenuList,
   LoadingIndicatorPage,
-} from 'strapi-helper-plugin';
+} from '@x-team/strapi-helper-plugin';
 import { Switch, Redirect, Route, useParams, useHistory } from 'react-router-dom';
 import { useIntl } from 'react-intl';
 import HeaderSearch from '../../components/HeaderSearch';

@@ -7,7 +7,7 @@ const { permittedFieldsOf } = require('@casl/ability/extra');
 const {
   sanitizeEntity,
   contentTypes: { constants },
-} = require('strapi-utils');
+} = require('@x-team/strapi-utils');
 const { buildStrapiQuery, buildCaslQuery } = require('./query-builers');
 
 module.exports = ({ ability, action, model }) => ({

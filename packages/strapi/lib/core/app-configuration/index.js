@@ -80,10 +80,10 @@ module.exports = (dir, initialConfig = {}) => {
       ...pkgJSON,
       strapi: strapiVersion,
     },
-    installedPlugins: getPrefixedDeps('strapi-plugin', pkgJSON),
-    installedMiddlewares: getPrefixedDeps('strapi-middleware', pkgJSON),
-    installedHooks: getPrefixedDeps('strapi-hook', pkgJSON),
-    installedProviders: getPrefixedDeps('strapi-provider', pkgJSON),
+    installedPlugins: getPrefixedDeps('@x-team/strapi-plugin', pkgJSON),
+    installedMiddlewares: getPrefixedDeps('@x-team/strapi-middleware', pkgJSON),
+    installedHooks: getPrefixedDeps('@x-team/strapi-hook', pkgJSON),
+    installedProviders: getPrefixedDeps('@x-team/strapi-provider', pkgJSON),
   };
 
   const baseConfig = {

@@ -1,5 +1,5 @@
 {
-  "name": "create-strapi-app",
+  "name": "@x-team/create-strapi-app",
   "version": "3.6.11",
   "description": "Generate a new Strapi application.",
   "license": "SEE LICENSE IN LICENSE",
@@ -12,16 +12,14 @@
     "strapi"
   ],
   "main": "./index.js",
-  "bin": {
-    "create-strapi-app": "./index.js"
-  },
+  "bin": "./index.js",
   "dependencies": {
+    "@x-team/strapi-generate-new": "3.6.11",
     "chalk": "4.1.1",
     "commander": "6.1.0",
     "inquirer": "8.1.0",
     "js-yaml": "4.1.0",
-    "node-fetch": "^2.6.1",
-    "strapi-generate-new": "3.6.11"
+    "node-fetch": "^2.6.1"
   },
   "scripts": {
     "test": "echo \"no tests yet\""

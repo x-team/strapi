@@ -1,5 +1,5 @@
 {
-  "name": "strapi-plugin-graphql",
+  "name": "@x-team/strapi-plugin-graphql",
   "version": "3.6.11",
   "description": "Adds GraphQL endpoint with default API methods.",
   "strapi": {
@@ -13,6 +13,7 @@
   "dependencies": {
     "@apollo/federation": "^0.20.7",
     "@graphql-tools/utils": "7.2.4",
+    "@x-team/strapi-utils": "3.6.11",
     "apollo-server-koa": "2.24.0",
     "dataloader": "^1.4.0",
     "glob": "^7.1.6",
@@ -26,8 +27,7 @@
     "graphql-upload": "11.0.0",
     "koa-compose": "^4.1.0",
     "lodash": "4.17.21",
-    "pluralize": "^8.0.0",
-    "strapi-utils": "3.6.11"
+    "pluralize": "^8.0.0"
   },
   "repository": {
     "type": "git",

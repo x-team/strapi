@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { colors } from 'strapi-helper-plugin';
+import { colors } from '@x-team/strapi-helper-plugin';
 
 const Wrapper = styled.div`
   width: 22rem;

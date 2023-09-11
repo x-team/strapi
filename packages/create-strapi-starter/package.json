@@ -1,5 +1,5 @@
 {
-  "name": "create-strapi-starter",
+  "name": "@x-team/create-strapi-starter",
   "version": "3.6.11",
   "description": "Generate a new Strapi application.",
   "license": "SEE LICENSE IN LICENSE",
@@ -12,10 +12,9 @@
     "strapi"
   ],
   "main": "./index.js",
-  "bin": {
-    "create-strapi-starter": "./index.js"
-  },
+  "bin": "./index.js",
   "dependencies": {
+    "@x-team/strapi-generate-new": "3.6.11",
     "chalk": "4.1.1",
     "ci-info": "3.1.1",
     "commander": "7.1.0",
@@ -26,7 +25,6 @@
     "js-yaml": "4.1.0",
     "node-fetch": "^2.6.1",
     "ora": "5.4.0",
-    "strapi-generate-new": "3.6.11",
     "tar": "6.1.9"
   },
   "scripts": {

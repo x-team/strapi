@@ -17,7 +17,7 @@ const {
   generateTimestampCode,
   stringIncludes,
   hooks: { createAsyncSeriesWaterfallHook },
-} = require('strapi-utils');
+} = require('@x-team/strapi-utils');
 const permissionDomain = require('../domain/permission');
 const { validatePermissionsExist } = require('../validation/permission');
 const { getService } = require('../utils');

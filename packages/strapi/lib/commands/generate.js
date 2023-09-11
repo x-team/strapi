@@ -8,12 +8,13 @@
 const path = require('path');
 
 // Master of ceremonies for generators.
-const generate = require('strapi-generate');
+const generate = require('@x-team/strapi-generate');
 
 // Logger.
-const { logger } = require('strapi-utils');
+const { logger } = require('@x-team/strapi-utils');
 
 // Local Strapi dependencies.
+// eslint-disable-next-line import/extensions
 const packageJSON = require('../../package.json');
 
 /**

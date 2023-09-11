@@ -1,5 +1,5 @@
 {
-  "name": "strapi-plugin-content-manager",
+  "name": "@x-team/strapi-plugin-content-manager",
   "version": "3.6.11",
   "description": "A powerful UI to easily manage your data.",
   "strapi": {
@@ -16,6 +16,8 @@
     "@buffetjs/styles": "3.3.8",
     "@buffetjs/utils": "3.3.8",
     "@sindresorhus/slugify": "1.1.0",
+    "@x-team/strapi-helper-plugin": "3.6.11",
+    "@x-team/strapi-utils": "3.6.11",
     "classnames": "^2.3.1",
     "codemirror": "^5.61.0",
     "draft-js": "^0.11.5",
@@ -45,8 +47,6 @@
     "redux-immutable": "^4.0.0",
     "reselect": "^4.0.0",
     "sanitize-html": "2.7.2",
-    "strapi-helper-plugin": "3.6.11",
-    "strapi-utils": "3.6.11",
     "yup": "^0.32.9"
   },
   "author": {

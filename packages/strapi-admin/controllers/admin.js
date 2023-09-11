@@ -62,7 +62,7 @@ module.exports = {
   async plugins(ctx) {
     try {
       const plugins = Object.keys(strapi.plugins).reduce((acc, key) => {
-        acc[key] = _.get(strapi.plugins, [key, 'package', 'strapi'], {
+        acc[key] = _.get(strapi.plugins, [key, 'package', '@x-team/strapi'], {
           name: key,
         });
 

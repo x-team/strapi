@@ -2,7 +2,7 @@
 
 const { join } = require('path');
 
-const { nameToSlug } = require('strapi-utils');
+const { nameToSlug } = require('@x-team/strapi-utils');
 const createBuilder = require('./schema-builder');
 
 /**

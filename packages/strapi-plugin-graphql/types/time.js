@@ -1,6 +1,6 @@
 'use strict';
 
-const { parseType } = require('strapi-utils');
+const { parseType } = require('@x-team/strapi-utils');
 
 const { Kind, GraphQLScalarType } = require('graphql');
 

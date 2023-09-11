@@ -9,7 +9,7 @@ import {
   SizedInput,
   useUserPermissions,
   request,
-} from 'strapi-helper-plugin';
+} from '@x-team/strapi-helper-plugin';
 import pluginPermissions from '../../permissions';
 import { getTrad, getRequestURL } from '../../utils';
 import ListBaselineAlignment from '../../components/ListBaselineAlignment';
