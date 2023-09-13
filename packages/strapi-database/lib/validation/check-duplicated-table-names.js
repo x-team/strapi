@@ -13,14 +13,17 @@ Second found in ${modelB.origin} \`${modelB.apiOrPluginName}\`, model \`${modelB
 // Check if all collection names are unique
 const checkDuplicatedTableNames = ({ strapi }) => {
   const modelsWithInfo = [];
-  _.forIn(strapi.admin.models, (model, modelName) => {
-    modelsWithInfo.push({
-      origin: 'Strapi internal',
-      model,
-      apiOrPluginName: 'admin',
-      modelName,
+
+  if (strapi.admin) {
+    _.forIn(strapi.admin.models, (model, modelName) => {
+      modelsWithInfo.push({
+        origin: 'Strapi internal',
+        model,
+        apiOrPluginName: 'admin',
+        modelName,
+      });
     });
-  });
+  }
 
   _.forIn(strapi.api, (api, apiName) => {
     _.forIn(api.models, (model, modelName) => {

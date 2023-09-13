@@ -33,7 +33,7 @@ const defaults = {
   host: 'localhost',
 };
 
-const isBookshelfConnection = ({ connector }) => connector === 'bookshelf';
+const isBookshelfConnection = ({ connector }) => connector === 'simple-bs';
 
 module.exports = function(strapi) {
   const { connections } = strapi.config;
@@ -60,7 +60,7 @@ module.exports = function(strapi) {
         strapi.config.appPath,
         'config',
         'functions',
-        'bookshelf.js'
+        'simple-bs.js'
       );
 
       if (fs.existsSync(initFunctionPath)) {

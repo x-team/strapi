@@ -55,10 +55,12 @@ class DatabaseManager {
       this.models.set(model.uid, model);
     });
 
-    Object.keys(this.strapi.admin.models).forEach(modelKey => {
-      const model = this.strapi.admin.models[modelKey];
-      this.models.set(model.uid, model);
-    });
+    if (strapi.admin) {
+      Object.keys(this.strapi.admin.models).forEach(modelKey => {
+        const model = this.strapi.admin.models[modelKey];
+        this.models.set(model.uid, model);
+      });
+    }
 
     Object.keys(this.strapi.plugins).forEach(pluginKey => {
       Object.keys(this.strapi.plugins[pluginKey].models).forEach(modelKey => {

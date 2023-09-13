@@ -104,7 +104,7 @@ module.exports = async ({ models, target }, ctx, { selfFinalize = false } = {}) 
     GLOBALS[definition.globalId] = {};
 
     // Add some information about ORM & client connection & tableName
-    definition.orm = 'bookshelf';
+    definition.orm = 'simple-bs';
     definition.databaseName = getDatabaseName(connection);
     definition.client = _.get(connection.settings, 'client');
     definition.primaryKey = 'id';

@@ -461,12 +461,14 @@ class Strapi {
     await execLifecycle(_.get(this.config, configPath));
 
     // admin
-    const adminFunc = _.get(this.admin.config, configPath);
-    return execLifecycle(adminFunc).catch(err => {
-      strapi.log.error(`${lifecycleName} function in admin failed`);
-      strapi.log.error(err);
-      strapi.stop();
-    });
+    if (this.admin) {
+      const adminFunc = _.get(this.admin.config, configPath);
+      return execLifecycle(adminFunc).catch(err => {
+        strapi.log.error(`${lifecycleName} function in admin failed`);
+        strapi.log.error(err);
+        strapi.stop();
+      });
+    }
   }
 
   async freeze() {

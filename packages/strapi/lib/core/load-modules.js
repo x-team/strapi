@@ -21,9 +21,11 @@ const loadHooks = require('./load-hooks');
 const loadComponents = require('./load-components');
 
 module.exports = async strapi => {
+  const { config } = strapi;
+
   const [api, admin, plugins, middlewares, hook, extensions, components] = await Promise.all([
     loadApis(strapi),
-    loadAdmin(strapi),
+    config?.server?.admin?.exclude ? null : loadAdmin(strapi),
     loadPlugins(strapi),
     loadMiddlewares(strapi),
     loadHooks(strapi.config),
