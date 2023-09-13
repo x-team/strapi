@@ -1,6 +1,6 @@
 {
   "name": "@x-team/strapi-plugin-content-type-builder",
-  "version": "3.6.11",
+  "version": "3.7.0",
   "description": "Strapi plugin to create content type (API).",
   "strapi": {
     "name": "Content Type Builder",
@@ -15,10 +15,10 @@
     "@buffetjs/styles": "3.3.8",
     "@buffetjs/utils": "3.3.8",
     "@sindresorhus/slugify": "1.1.0",
-    "@x-team/strapi-generate": "3.6.11",
-    "@x-team/strapi-generate-api": "3.6.11",
-    "@x-team/strapi-helper-plugin": "3.6.11",
-    "@x-team/strapi-utils": "3.6.11",
+    "@x-team/strapi-generate": "3.7.0",
+    "@x-team/strapi-generate-api": "3.7.0",
+    "@x-team/strapi-helper-plugin": "3.7.0",
+    "@x-team/strapi-utils": "3.7.0",
     "fs-extra": "^9.1.0",
     "immutable": "^3.8.2",
     "lodash": "4.17.21",

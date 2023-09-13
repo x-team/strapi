@@ -1,6 +1,6 @@
 {
   "name": "@x-team/strapi-connector-bookshelf",
-  "version": "3.6.11",
+  "version": "3.7.0",
   "description": "Bookshelf hook for the Strapi framework",
   "homepage": "https://strapi.io",
   "keywords": [
@@ -16,7 +16,7 @@
   },
   "main": "./lib",
   "dependencies": {
-    "@x-team/strapi-utils": "3.6.11",
+    "@x-team/strapi-utils": "3.7.0",
     "bookshelf": "^1.0.1",
     "date-fns": "^2.19.0",
     "inquirer": "^6.3.1",

@@ -1,6 +1,6 @@
 {
   "name": "@x-team/strapi-plugin-upload",
-  "version": "3.6.11",
+  "version": "3.7.0",
   "description": "Makes it easy to upload images and files to your Strapi Application.",
   "strapi": {
     "name": "Media Library",
@@ -18,9 +18,9 @@
     "@buffetjs/icons": "3.3.8",
     "@buffetjs/styles": "3.3.8",
     "@buffetjs/utils": "3.3.8",
-    "@x-team/strapi-helper-plugin": "3.6.11",
-    "@x-team/strapi-provider-upload-local": "3.6.11",
-    "@x-team/strapi-utils": "3.6.11",
+    "@x-team/strapi-helper-plugin": "3.7.0",
+    "@x-team/strapi-provider-upload-local": "3.7.0",
+    "@x-team/strapi-utils": "3.7.0",
     "byte-size": "^7.0.1",
     "cropperjs": "^1.5.11",
     "immer": "9.0.16",
