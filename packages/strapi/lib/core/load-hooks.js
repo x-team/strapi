@@ -13,12 +13,14 @@ const findPackagePath = require('../load/package-path');
 module.exports = async function({ installedHooks, installedPlugins, appPath }) {
   let hooks = {};
 
+  const { config } = strapi;
+
   await Promise.all([
     loadHookDependencies(installedHooks, hooks),
     // local middleware
     loadLocalHooks(appPath, hooks),
     // admin hooks
-    loadAdminHooks(hooks),
+    config?.server?.admin?.exclude ? null : loadAdminHooks(hooks),
     // plugins middlewares
     loadPluginsHooks(installedPlugins, hooks),
     // local plugin middlewares

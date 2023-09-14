@@ -26,8 +26,12 @@ module.exports = async function(strapi) {
   await loaders.loadPluginsMiddlewares(installedPlugins, middlewares);
   // local plugin middlewares
   await loaders.loadLocalPluginsMiddlewares(appPath, middlewares);
-  // load admin middlwares
-  await loaders.loadAdminMiddlewares(middlewares);
+
+  const { config } = strapi;
+  if (!config?.server?.admin?.exclude) {
+    // load admin middlwares
+    await loaders.loadAdminMiddlewares(middlewares);
+  }
 
   return middlewares;
 };
