@@ -133,3 +133,5 @@ packages/strapi-generate-new/files/public/
 ############################
 
 front-workspace.code-workspace
+
+.yarn
