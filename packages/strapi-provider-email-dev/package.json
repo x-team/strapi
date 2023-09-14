@@ -1,6 +1,6 @@
 {
   "name": "@x-team/strapi-provider-email-dev",
-  "version": "3.7.0",
+  "version": "3.7.1",
   "description": "Dev provider for strapi email",
   "keywords": [
     "email",
