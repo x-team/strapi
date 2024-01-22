@@ -1,6 +1,6 @@
 {
   "name": "@x-team/strapi-admin",
-  "version": "3.7.1",
+  "version": "3.8.1",
   "description": "Strapi Admin",
   "repository": {
     "type": "git",
@@ -37,8 +37,8 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/react-fontawesome": "^0.1.14",
-    "@x-team/strapi-helper-plugin": "^3.7.1",
-    "@x-team/strapi-utils": "^3.7.1",
+    "@x-team/strapi-helper-plugin": "^3.8.1",
+    "@x-team/strapi-utils": "^3.8.1",
     "autoprefixer": "^9.8.6",
     "axios": "^0.21.1",
     "babel-loader": "^8.1.0",

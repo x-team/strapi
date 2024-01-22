@@ -5001,7 +5001,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@x-team/create-strapi-app@workspace:packages/create-strapi-app"
   dependencies:
-    "@x-team/strapi-generate-new": ^3.7.1
+    "@x-team/strapi-generate-new": ^3.8.1
     chalk: 4.1.1
     commander: 6.1.0
     inquirer: 8.1.0
@@ -5016,7 +5016,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@x-team/create-strapi-starter@workspace:packages/create-strapi-starter"
   dependencies:
-    "@x-team/strapi-generate-new": ^3.7.1
+    "@x-team/strapi-generate-new": ^3.8.1
     chalk: 4.1.1
     ci-info: 3.1.1
     commander: 7.1.0
@@ -5167,8 +5167,8 @@ __metadata:
     "@fortawesome/free-brands-svg-icons": ^5.15.3
     "@fortawesome/free-solid-svg-icons": ^5.15.3
     "@fortawesome/react-fontawesome": ^0.1.14
-    "@x-team/strapi-helper-plugin": ^3.7.1
-    "@x-team/strapi-utils": ^3.7.1
+    "@x-team/strapi-helper-plugin": ^3.8.1
+    "@x-team/strapi-utils": ^3.8.1
     autoprefixer: ^9.8.6
     axios: ^0.21.1
     babel-loader: ^8.1.0
@@ -5269,7 +5269,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@x-team/strapi-connector-bookshelf@workspace:packages/strapi-connector-bookshelf"
   dependencies:
-    "@x-team/strapi-utils": ^3.7.1
+    "@x-team/strapi-utils": ^3.8.1
     bookshelf: ^1.0.1
     date-fns: ^2.19.0
     inquirer: ^6.3.1
@@ -5286,7 +5286,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@x-team/strapi-connector-simple-bs@workspace:packages/strapi-connector-simple-bs"
   dependencies:
-    "@x-team/strapi-utils": ^3.7.1
+    "@x-team/strapi-utils": ^3.8.1
     bookshelf: ^1.0.1
     date-fns: ^2.19.0
     inquirer: ^6.3.1
@@ -5299,11 +5299,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@x-team/strapi-database@^3.7.1, @x-team/strapi-database@workspace:packages/strapi-database":
+"@x-team/strapi-database@^3.8.1, @x-team/strapi-database@workspace:packages/strapi-database":
   version: 0.0.0-use.local
   resolution: "@x-team/strapi-database@workspace:packages/strapi-database"
   dependencies:
-    "@x-team/strapi-utils": ^3.7.1
+    "@x-team/strapi-utils": ^3.8.1
     debug: 4.3.1
     lodash: 4.17.21
     p-map: 4.0.0
@@ -5324,11 +5324,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@x-team/strapi-generate-api@^3.7.1, @x-team/strapi-generate-api@workspace:packages/strapi-generate-api":
+"@x-team/strapi-generate-api@^3.8.1, @x-team/strapi-generate-api@workspace:packages/strapi-generate-api":
   version: 0.0.0-use.local
   resolution: "@x-team/strapi-generate-api@workspace:packages/strapi-generate-api"
   dependencies:
-    "@x-team/strapi-utils": ^3.7.1
+    "@x-team/strapi-utils": ^3.8.1
     lodash: 4.17.21
     pluralize: ^8.0.0
   languageName: unknown
@@ -5345,11 +5345,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@x-team/strapi-generate-controller@^3.7.1, @x-team/strapi-generate-controller@workspace:packages/strapi-generate-controller":
+"@x-team/strapi-generate-controller@^3.8.1, @x-team/strapi-generate-controller@workspace:packages/strapi-generate-controller":
   version: 0.0.0-use.local
   resolution: "@x-team/strapi-generate-controller@workspace:packages/strapi-generate-controller"
   dependencies:
-    "@x-team/strapi-utils": ^3.7.1
+    "@x-team/strapi-utils": ^3.8.1
     lodash: 4.17.21
   languageName: unknown
   linkType: soft
@@ -5364,11 +5364,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@x-team/strapi-generate-model@^3.7.1, @x-team/strapi-generate-model@workspace:packages/strapi-generate-model":
+"@x-team/strapi-generate-model@^3.8.1, @x-team/strapi-generate-model@workspace:packages/strapi-generate-model":
   version: 0.0.0-use.local
   resolution: "@x-team/strapi-generate-model@workspace:packages/strapi-generate-model"
   dependencies:
-    "@x-team/strapi-utils": ^3.7.1
+    "@x-team/strapi-utils": ^3.8.1
     lodash: 4.17.21
     pluralize: ^8.0.0
   languageName: unknown
@@ -5385,7 +5385,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@x-team/strapi-generate-new@^3.7.1, @x-team/strapi-generate-new@workspace:packages/strapi-generate-new":
+"@x-team/strapi-generate-new@^3.8.1, @x-team/strapi-generate-new@workspace:packages/strapi-generate-new":
   version: 0.0.0-use.local
   resolution: "@x-team/strapi-generate-new@workspace:packages/strapi-generate-new"
   dependencies:
@@ -5424,11 +5424,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@x-team/strapi-generate-plugin@^3.7.1, @x-team/strapi-generate-plugin@workspace:packages/strapi-generate-plugin":
+"@x-team/strapi-generate-plugin@^3.8.1, @x-team/strapi-generate-plugin@workspace:packages/strapi-generate-plugin":
   version: 0.0.0-use.local
   resolution: "@x-team/strapi-generate-plugin@workspace:packages/strapi-generate-plugin"
   dependencies:
-    "@x-team/strapi-utils": ^3.7.1
+    "@x-team/strapi-utils": ^3.8.1
     fs-extra: ^9.1.0
     lodash: 4.17.21
   languageName: unknown
@@ -5445,11 +5445,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@x-team/strapi-generate-policy@^3.7.1, @x-team/strapi-generate-policy@workspace:packages/strapi-generate-policy":
+"@x-team/strapi-generate-policy@^3.8.1, @x-team/strapi-generate-policy@workspace:packages/strapi-generate-policy":
   version: 0.0.0-use.local
   resolution: "@x-team/strapi-generate-policy@workspace:packages/strapi-generate-policy"
   dependencies:
-    "@x-team/strapi-utils": ^3.7.1
+    "@x-team/strapi-utils": ^3.8.1
     lodash: 4.17.21
   languageName: unknown
   linkType: soft
@@ -5464,11 +5464,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@x-team/strapi-generate-service@^3.7.1, @x-team/strapi-generate-service@workspace:packages/strapi-generate-service":
+"@x-team/strapi-generate-service@^3.8.1, @x-team/strapi-generate-service@workspace:packages/strapi-generate-service":
   version: 0.0.0-use.local
   resolution: "@x-team/strapi-generate-service@workspace:packages/strapi-generate-service"
   dependencies:
-    "@x-team/strapi-utils": ^3.7.1
+    "@x-team/strapi-utils": ^3.8.1
     lodash: 4.17.21
   languageName: unknown
   linkType: soft
@@ -5483,11 +5483,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@x-team/strapi-generate@^3.7.1, @x-team/strapi-generate@workspace:packages/strapi-generate":
+"@x-team/strapi-generate@^3.8.1, @x-team/strapi-generate@workspace:packages/strapi-generate":
   version: 0.0.0-use.local
   resolution: "@x-team/strapi-generate@workspace:packages/strapi-generate"
   dependencies:
-    "@x-team/strapi-utils": ^3.7.1
+    "@x-team/strapi-utils": ^3.8.1
     async: ^2.6.2
     fs-extra: ^9.1.0
     lodash: 4.17.21
@@ -5508,7 +5508,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@x-team/strapi-helper-plugin@^3.7.1, @x-team/strapi-helper-plugin@workspace:packages/strapi-helper-plugin":
+"@x-team/strapi-helper-plugin@^3.8.1, @x-team/strapi-helper-plugin@workspace:packages/strapi-helper-plugin":
   version: 0.0.0-use.local
   resolution: "@x-team/strapi-helper-plugin@workspace:packages/strapi-helper-plugin"
   dependencies:
@@ -5649,8 +5649,8 @@ __metadata:
     "@buffetjs/styles": 3.3.8
     "@buffetjs/utils": 3.3.8
     "@sindresorhus/slugify": 1.1.0
-    "@x-team/strapi-helper-plugin": ^3.7.1
-    "@x-team/strapi-utils": ^3.7.1
+    "@x-team/strapi-helper-plugin": ^3.8.1
+    "@x-team/strapi-utils": ^3.8.1
     classnames: ^2.3.1
     codemirror: ^5.61.0
     draft-js: ^0.11.5
@@ -5729,10 +5729,10 @@ __metadata:
     "@buffetjs/styles": 3.3.8
     "@buffetjs/utils": 3.3.8
     "@sindresorhus/slugify": 1.1.0
-    "@x-team/strapi-generate": ^3.7.1
-    "@x-team/strapi-generate-api": ^3.7.1
-    "@x-team/strapi-helper-plugin": ^3.7.1
-    "@x-team/strapi-utils": ^3.7.1
+    "@x-team/strapi-generate": ^3.8.1
+    "@x-team/strapi-generate-api": ^3.8.1
+    "@x-team/strapi-helper-plugin": ^3.8.1
+    "@x-team/strapi-utils": ^3.8.1
     fs-extra: ^9.1.0
     immutable: ^3.8.2
     lodash: 4.17.21
@@ -5761,7 +5761,7 @@ __metadata:
     "@buffetjs/icons": 3.3.8
     "@buffetjs/styles": 3.3.8
     "@buffetjs/utils": 3.3.8
-    "@x-team/strapi-helper-plugin": ^3.7.1
+    "@x-team/strapi-helper-plugin": ^3.8.1
     cheerio: ^1.0.0-rc.5
     fs-extra: ^9.1.0
     immutable: ^3.8.2
@@ -5789,9 +5789,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@x-team/strapi-plugin-email@workspace:packages/strapi-plugin-email"
   dependencies:
-    "@x-team/strapi-helper-plugin": ^3.7.1
-    "@x-team/strapi-provider-email-sendmail": ^3.7.1
-    "@x-team/strapi-utils": ^3.7.1
+    "@x-team/strapi-helper-plugin": ^3.8.1
+    "@x-team/strapi-provider-email-sendmail": ^3.8.1
+    "@x-team/strapi-utils": ^3.8.1
     lodash: 4.17.21
     rimraf: 3.0.2
   languageName: unknown
@@ -5803,7 +5803,7 @@ __metadata:
   dependencies:
     "@apollo/federation": ^0.20.7
     "@graphql-tools/utils": 7.2.4
-    "@x-team/strapi-utils": ^3.7.1
+    "@x-team/strapi-utils": ^3.8.1
     apollo-server-koa: 2.24.0
     cross-env: ^7.0.3
     dataloader: ^1.4.0
@@ -5828,7 +5828,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@x-team/strapi-plugin-i18n@workspace:packages/strapi-plugin-i18n"
   dependencies:
-    "@x-team/strapi-utils": ^3.7.1
+    "@x-team/strapi-utils": ^3.8.1
     lodash: 4.17.21
     p-map: 4.0.0
     pluralize: 8.0.0
@@ -5890,9 +5890,9 @@ __metadata:
     "@buffetjs/icons": 3.3.8
     "@buffetjs/styles": 3.3.8
     "@buffetjs/utils": 3.3.8
-    "@x-team/strapi-helper-plugin": ^3.7.1
-    "@x-team/strapi-provider-upload-local": ^3.7.1
-    "@x-team/strapi-utils": ^3.7.1
+    "@x-team/strapi-helper-plugin": ^3.8.1
+    "@x-team/strapi-provider-upload-local": ^3.8.1
+    "@x-team/strapi-utils": ^3.8.1
     byte-size: ^7.0.1
     cropperjs: ^1.5.11
     immer: 9.0.16
@@ -5961,8 +5961,8 @@ __metadata:
     "@buffetjs/styles": 3.3.8
     "@buffetjs/utils": 3.3.8
     "@purest/providers": ^1.0.2
-    "@x-team/strapi-helper-plugin": ^3.7.1
-    "@x-team/strapi-utils": ^3.7.1
+    "@x-team/strapi-helper-plugin": ^3.8.1
+    "@x-team/strapi-utils": ^3.8.1
     bcryptjs: ^2.4.3
     grant-koa: 5.4.8
     immutable: ^3.8.2
@@ -6006,15 +6006,15 @@ __metadata:
   resolution: "@x-team/strapi-provider-email-sendgrid@workspace:packages/strapi-provider-email-sendgrid"
   dependencies:
     "@sendgrid/mail": 6.4.0
-    "@x-team/strapi-utils": ^3.7.1
+    "@x-team/strapi-utils": ^3.8.1
   languageName: unknown
   linkType: soft
 
-"@x-team/strapi-provider-email-sendmail@^3.7.1, @x-team/strapi-provider-email-sendmail@workspace:packages/strapi-provider-email-sendmail":
+"@x-team/strapi-provider-email-sendmail@^3.8.1, @x-team/strapi-provider-email-sendmail@workspace:packages/strapi-provider-email-sendmail":
   version: 0.0.0-use.local
   resolution: "@x-team/strapi-provider-email-sendmail@workspace:packages/strapi-provider-email-sendmail"
   dependencies:
-    "@x-team/strapi-utils": ^3.7.1
+    "@x-team/strapi-utils": ^3.8.1
     sendmail: ^1.6.1
   languageName: unknown
   linkType: soft
@@ -6028,7 +6028,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@x-team/strapi-provider-upload-local@^3.7.1, @x-team/strapi-provider-upload-local@workspace:packages/strapi-provider-upload-local":
+"@x-team/strapi-provider-upload-local@^3.8.1, @x-team/strapi-provider-upload-local@workspace:packages/strapi-provider-upload-local":
   version: 0.0.0-use.local
   resolution: "@x-team/strapi-provider-upload-local@workspace:packages/strapi-provider-upload-local"
   peerDependencies:
@@ -6045,7 +6045,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@x-team/strapi-utils@^3.7.1, @x-team/strapi-utils@workspace:packages/strapi-utils":
+"@x-team/strapi-utils@^3.8.1, @x-team/strapi-utils@workspace:packages/strapi-utils":
   version: 0.0.0-use.local
   resolution: "@x-team/strapi-utils@workspace:packages/strapi-utils"
   dependencies:
@@ -6140,16 +6140,16 @@ __metadata:
   resolution: "@x-team/strapi@workspace:packages/strapi"
   dependencies:
     "@koa/cors": ^3.0.0
-    "@x-team/strapi-database": ^3.7.1
-    "@x-team/strapi-generate": ^3.7.1
-    "@x-team/strapi-generate-api": ^3.7.1
-    "@x-team/strapi-generate-controller": ^3.7.1
-    "@x-team/strapi-generate-model": ^3.7.1
-    "@x-team/strapi-generate-new": ^3.7.1
-    "@x-team/strapi-generate-plugin": ^3.7.1
-    "@x-team/strapi-generate-policy": ^3.7.1
-    "@x-team/strapi-generate-service": ^3.7.1
-    "@x-team/strapi-utils": ^3.7.1
+    "@x-team/strapi-database": ^3.8.1
+    "@x-team/strapi-generate": ^3.8.1
+    "@x-team/strapi-generate-api": ^3.8.1
+    "@x-team/strapi-generate-controller": ^3.8.1
+    "@x-team/strapi-generate-model": ^3.8.1
+    "@x-team/strapi-generate-new": ^3.8.1
+    "@x-team/strapi-generate-plugin": ^3.8.1
+    "@x-team/strapi-generate-policy": ^3.8.1
+    "@x-team/strapi-generate-service": ^3.8.1
+    "@x-team/strapi-utils": ^3.8.1
     async: ^2.1.2
     boom: ^7.3.0
     boxen: 4.2.0

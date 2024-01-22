@@ -1,6 +1,6 @@
 {
   "name": "@x-team/strapi-generate-policy",
-  "version": "3.7.1",
+  "version": "3.8.1",
   "description": "Generate a policy for a Strapi API.",
   "homepage": "https://strapi.io",
   "keywords": [
@@ -14,7 +14,7 @@
     "lib": "./lib"
   },
   "dependencies": {
-    "@x-team/strapi-utils": "^3.7.1",
+    "@x-team/strapi-utils": "^3.8.1",
     "lodash": "4.17.21"
   },
   "scripts": {
