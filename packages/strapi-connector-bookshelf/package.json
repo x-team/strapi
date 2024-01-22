@@ -1,6 +1,6 @@
 {
   "name": "@x-team/strapi-connector-bookshelf",
-  "version": "3.7.1",
+  "version": "3.8.0",
   "description": "Bookshelf hook for the Strapi framework",
   "homepage": "https://strapi.io",
   "keywords": [
